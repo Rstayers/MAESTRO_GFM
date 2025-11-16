@@ -57,7 +57,7 @@ def macro_f1(y_true, y_pred):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--device", default="cuda")
+    ap.add_argument("--device", default="cpu")
     ap.add_argument("--committee_k", type=int, default=2)
     ap.add_argument("--k", type=int, default=None, help="num clusters; default = #classes in WikiCS")
     args = ap.parse_args()
