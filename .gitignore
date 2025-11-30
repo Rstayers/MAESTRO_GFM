@@ -2,3 +2,6 @@
 # Huge GOFA checkpoints
 experiments/artifacts/gofa/
 experiments/cache_data/model/
+data/wikics/raw/data.json
+experiments/artifacts/G2PM/
+
