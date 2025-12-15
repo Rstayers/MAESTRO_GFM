@@ -10,7 +10,7 @@ MAESTRO-GFM is an **agent** that profiles an unseen graph, retrieves prior exper
 - **Routing:** predicts which GFM will be most confident on the target graph using **capability profiles** learned from many source “episodes.”  
 - **Committee (optional):** runs up to 2 diverse tools (e.g., **TAG** + **GNN**) with **aggregation** (confidence gate; winner-takes-lowest-entropy or entropy-weighted averaging).  
 - **Memory:** logs each episode (fingerprint, chosen tools, utilities) to improve later decisions.
-
+**IMPORTANT**: This repo for project submission does not have full GFM tools. The full tools require an external repository for each tool (the source code for the GFM found in each paper)
 ---
 
 ## Architecture (tiny map)
